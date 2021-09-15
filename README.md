@@ -18,7 +18,7 @@ Supported sync:
 ## Install
 
 ```bash
-npm i -g back-sync
+npm i -g @ayoubamine/backsync
 ```
 
 ## Usage

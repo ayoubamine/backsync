@@ -1,5 +1,5 @@
 {
-  "name": "back-sync",
+  "name": "@ayoubamine/backsync",
   "version": "1.2.0",
   "description": "Backup and sync your data with ease.",
   "main": "bin/index.js",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayoubamine/back-sync.git"
+    "url": "git+https://github.com/ayoubamine/backsync.git"
   },
   "keywords": [
     "backup",
@@ -53,7 +53,7 @@
   "author": "Ayoub AMINE <ayoubamine2a@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayoubamine/back-sync/issues"
+    "url": "https://github.com/ayoubamine/backsync/issues"
   },
-  "homepage": "https://github.com/ayoubamine/back-sync#readme"
+  "homepage": "https://github.com/ayoubamine/backsync#readme"
 }
