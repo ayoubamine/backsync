@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1]
+
+- Change the package name.
+- Update dependencies.
+
 ## [1.2.0]
 
 - Add AWS S3 sync source.
