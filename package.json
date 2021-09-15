@@ -1,6 +1,6 @@
 {
   "name": "back-sync",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Backup and sync your data with ease.",
   "main": "bin/index.js",
   "bin": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "archiver": "^5.3.0",
+    "aws-sdk": "^2.989.0",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "cli-table3": "^0.6.0",

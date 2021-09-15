@@ -13,6 +13,7 @@ Supported sync:
 - Local
 - Google Drive
 - Dropbox
+- AWS S3
 
 ## Install
 
@@ -135,6 +136,19 @@ Follow these steps to create a service account and download your `credentials.js
 1. Go to Permissions tab and enable `files.content.write` scope.
 1. Go to Settings tab, scroll down to OAuth 2 block, select 'No expiration' and click Generate.
 
+### AWS S3
+
+#### Step 1: AWS credentials
+
+1. Go to <https://aws.amazon.com>.
+2. Navigate to IAM > Users and click 'Add users'.
+3. Fill the username, enable 'Access key - Programmatic access', click 'Next: Permissions', select 'Attach existing policies directly', enable the AmazonS3FullAccess permission and click 'Next: Tags' > 'Next: Review'.
+
+#### Step 2: Create an S3 bucket
+
+1. Go to <https://s3.console.aws.amazon.com>.
+2. Click 'Create bucket', fill the bucket name and click 'Create bucket'.
+
 ## API
 
 ### Info
@@ -213,6 +227,14 @@ Follow these steps to create a service account and download your `credentials.js
 | Name              | Type     | Required |
 | ----------------- | -------- | -------- |
 | [token](#dropbox) | `string` | Yes      |
+
+#### AWS S3
+
+| Name                       | Type     | Required |
+| -------------------------- | -------- | -------- |
+| [accessKeyId](#aws-s3)     | `string` | Yes      |
+| [secretAccessKey](#aws-s3) | `string` | Yes      |
+| [bucketName](#aws-s3)      | `string` | Yes      |
 
 ### Settings
 
