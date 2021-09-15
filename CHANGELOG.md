@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2]
+
+- Roll back dependency inquirer to v8.1.3 <https://github.com/SBoudrias/Inquirer.js/issues/1046>.
+
 ## [1.2.1]
 
 - Change the package name.

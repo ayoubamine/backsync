@@ -1,6 +1,6 @@
 {
   "name": "@ayoubamine/backsync",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Backup and sync your data with ease.",
   "main": "bin/index.js",
   "bin": {
