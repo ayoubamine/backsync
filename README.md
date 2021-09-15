@@ -255,4 +255,4 @@ If you fixed a bug or implemented a new feature, please send a [pull request](ht
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](./LICENSE.md)
