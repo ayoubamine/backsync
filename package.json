@@ -1,6 +1,6 @@
 {
   "name": "back-sync",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Backup and sync your data with ease.",
   "main": "bin/index.js",
   "bin": {
@@ -19,6 +19,7 @@
     "inquirer": "^8.1.2",
     "inquirer-path": "^1.0.0-beta5",
     "mongodb": "^4.1.1",
+    "mysql2": "^2.3.0",
     "nanoid": "^3.1.25",
     "node-cron": "^3.0.0",
     "sqlite": "^4.0.23",

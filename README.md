@@ -6,6 +6,7 @@ Supported backup:
 
 - Local
 - MongoDB
+- MySQL
 
 Supported sync:
 
@@ -167,6 +168,24 @@ Follow these steps to create a service account and download your `credentials.js
 | -------- | -------- | ---------------------------------------- |
 | uri      | `string` | No, Default: `mongodb://localhost:27017` |
 | database | `string` | Yes                                      |
+
+##### Settings
+
+| Name     | Type     | Required                    |
+| -------- | -------- | --------------------------- |
+| filename | `string` | No, Default: Database name. |
+
+#### MySQL
+
+##### Params
+
+| Name     | Type     | Required                |
+| -------- | -------- | ----------------------- |
+| host     | `string` | No, Default: `hostname` |
+| port     | `number` | No, Default: `3306`     |
+| user     | `string` | No, Default: `root`     |
+| password | `string` | No                      |
+| database | `string` | Yes                     |
 
 ##### Settings
 
