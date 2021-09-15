@@ -16,6 +16,7 @@
   "rules": {
     "prettier/prettier": "error",
     "no-restricted-syntax": "off",
+    "consistent-return": "off",
     "no-await-in-loop": "off",
     "comma-dangle": "off",
     "no-console": "off"
