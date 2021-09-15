@@ -10,6 +10,7 @@
     "archiver": "^5.3.0",
     "aws-sdk": "^2.989.0",
     "chalk": "^4.1.2",
+    "clean-deep": "^3.4.0",
     "clear": "^0.1.0",
     "cli-table3": "^0.6.0",
     "commander": "^8.2.0",

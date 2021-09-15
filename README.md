@@ -238,9 +238,11 @@ Follow these steps to create a service account and download your `credentials.js
 
 ### Settings
 
-| Name | Type     | Required                 |
-| ---- | -------- | ------------------------ |
-| cron | `string` | No, Default: `0 0 * * *` |
+| Name     | Type     | Required                 |
+| -------- | -------- | ------------------------ |
+| cron     | `string` | No, Default: `0 0 * * *` |
+| prefix   | `string` | No                       |
+| filename | `string` | No                       |
 
 ## Contributions
 
